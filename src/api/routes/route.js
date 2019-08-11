@@ -15,4 +15,7 @@ module.exports = function(app) {
 
   app.route('/api/player/:id')
     .get(apiController.get_player_info);          
+
+  app.route('/api/summary/:season')
+    .get(apiController.get_summary_per_season);        
 };
