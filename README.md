@@ -21,6 +21,8 @@ HOW TO INSTALL
 6) run the following commnad to start the node server (default port 8000):
     node server.js
 
+![Sync-Communication](https://user-images.githubusercontent.com/24611413/62988743-70f0dc00-be13-11e9-9cb9-be8c10d1d3e7.jpg)
+
 AVAILABLE APIs
 ==============
 
