@@ -9,22 +9,22 @@ Simple API that provides soccer statistics using a public database
 
 ## Installing
 
-* Download the code
-* Download the database file "soccer.rar" from [here](https://www.kaggle.com/hugomathien/soccer)
-* To install SQLite database 
-** Unpack the "soccer.rar" file as "soccer.sqlite" to the "data" folder
-** You can also unpack the "soccer.rar" file from the "data" folder itself
-* To install MySQL database
-** Download the MySQL dump file from [here](https://drive.google.com/open?id=1zNMAvHwRdK20HEvdCPimi7B96GUP6d6p)
+1. Download the code
+2. Download the database file "soccer.rar" from [here](https://www.kaggle.com/hugomathien/soccer)
+3. To install SQLite database 
+* Unpack the "soccer.rar" file as "soccer.sqlite" to the "data" folder
+* You can also unpack the "soccer.rar" file from the "data" folder itself
+4. To install MySQL database
+* Download the MySQL dump file from [here](https://drive.google.com/open?id=1zNMAvHwRdK20HEvdCPimi7B96GUP6d6p)
 * run the following command:
 ```
 mysql -u <user> -p < soccer-my-dump.sql
 ```
-* run the following command:
+5. run the following command:
 ```
     npm install
 ```
-* run the following commnad to start the node server (default port 8000):
+6. run the following commnad to start the node server (default port 8000):
 ```
     node server.js
 ```
@@ -43,3 +43,7 @@ mysql -u <user> -p < soccer-my-dump.sql
 * GET /api/mysql/leagues
 * GET /api/mysql/player?id={id}
 * GET /api/mysql/summary?season={season}
+
+## Author
+
+* **Marcelo Claure** - *Initial work*
