@@ -15,7 +15,7 @@ Simple API that provides soccer statistics using a public database
 *  Unpack the "soccer.rar" file as **soccer.sqlite** to the **data** folder
 *  You can also unpack the **soccer.rar** file from the **data** folder itself
 4. To install **MySQL** database:
-*  Download the MySQL dump file from [here](https://drive.google.com/open?id=1zNMAvHwRdK20HEvdCPimi7B96GUP6d6p)
+*  Download the **soccer-my-dump.sql** dump file from [here](https://drive.google.com/open?id=1zNMAvHwRdK20HEvdCPimi7B96GUP6d6p)
 *  Run the following command:
 ```
 mysql -u <user> -p < soccer-my-dump.sql
