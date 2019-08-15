@@ -44,7 +44,7 @@ mysql -u <user> -p < soccer-my-dump.sql
 * GET /api/mysql/leagues
 * GET /api/mysql/player?id={id}
 * GET /api/mysql/summary?season={season}
-
+---
 ## Author
 
 * **Marcelo Claure** - *Initial work*
