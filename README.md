@@ -21,16 +21,21 @@ HOW TO INSTALL
 6) run the following commnad to start the node server (default port 8000):
     node server.js
 
+![Sync-Communication](https://user-images.githubusercontent.com/24611413/62988743-70f0dc00-be13-11e9-9cb9-be8c10d1d3e7.jpg)
+
 AVAILABLE APIs
 ==============
 
-1)  GET /api/sqlite/countries
-2)  GET /api/sqlite/teams
-3)  GET /api/sqlite/leagues
-4)  GET /api/sqlite/player?id={id}
-5)  GET /api/sqlite/summar?season={season}
-6)  GET /api/mysql/countries
-7)  GET /api/mysql/teams
-8)  GET /api/mysql/leagues
-9)  GET /api/mysql/player?id={id}
-10) GET /api/mysql/summary?season={season}
+SQLite
+1) GET /api/sqlite/countries
+2) GET /api/sqlite/teams
+3) GET /api/sqlite/leagues
+4) GET /api/sqlite/player?id={id}
+5) GET /api/sqlite/summar?season={season}
+
+MySQL
+1) GET /api/mysql/countries
+2) GET /api/mysql/teams
+3) GET /api/mysql/leagues
+4) GET /api/mysql/player?id={id}
+5) GET /api/mysql/summary?season={season}
