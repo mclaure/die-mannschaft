@@ -6,7 +6,7 @@ Simple API that provides soccer statistics using a public database
 
 * [Source Data](https://www.kaggle.com/hugomathien/soccer) - real world sample data 
 * [Data description](http://www.football-data.co.uk/notes.txt) - detailed data description
-
+---
 ## Installing
 
 1. Download the code
@@ -28,6 +28,7 @@ mysql -u <user> -p < soccer-my-dump.sql
 ```
     node server.js
 ```
+---
 ## Available APIs
 
 **SQLite**
