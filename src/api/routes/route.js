@@ -15,10 +15,10 @@ module.exports = function(app) {
   app.route('/api/sqlite/leagues/')
     .get(sqlite3.list_all_leagues);       
 
-  app.route('/api/sqlite/player/:id')
+  app.route('/api/sqlite/player')
     .get(sqlite3.get_player_info);          
 
-  app.route('/api/sqlite/summary/:season')
+  app.route('/api/sqlite/summary')
     .get(sqlite3.get_summary_per_season); 
   
   //MySQL
@@ -31,9 +31,9 @@ module.exports = function(app) {
   app.route('/api/mysql/leagues/')
     .get(mysql.list_all_leagues);       
 
-  app.route('/api/mysql/player/:id')
+  app.route('/api/mysql/player')
     .get(mysql.get_player_info);   
     
-  app.route('/api/mysql/summary/:season')
+  app.route('/api/mysql/summary')
     .get(mysql.get_summary_per_season);     
 };

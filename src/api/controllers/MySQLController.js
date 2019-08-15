@@ -55,8 +55,7 @@ exports.get_player_info = (req, res, next) => {
                      ,weight \
                      ,height \
                FROM Player WHERE id = ?;";
-    let params = [req.params.id];
-
+    let params = [req.query.id];
     mysqlConn.query(sql, params, function (error, rows, fields) {
         if (error) throw error;
         else {
@@ -82,7 +81,7 @@ exports.get_summary_per_season = (req, res, next) => {
                         ,le.name \
                         ,mtc.season \
                         ,mtc.stage;";
-    let params = "%" + [req.params.season] + "%";
+    let params = "%" + [req.query.season] + "%";
 
     mysqlConn.query(sql, params, function (error, rows, fields) {
         if (error) throw error;

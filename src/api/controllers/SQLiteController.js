@@ -49,7 +49,7 @@ exports.get_player_info = (req, res, next) => {
                      ,weight \
                      ,height \
                FROM Player WHERE id = ?;";
-    let params = [req.params.id];
+    let params = [req.query.id];
 
     db.get(sql, params, (err, row) => {
         if (err) throw err;
@@ -76,7 +76,7 @@ exports.get_summary_per_season = (req, res, next) => {
                         ,le.name \
                         ,mtc.season \
                         ,mtc.stage;";
-    let params = "%" + [req.params.season] + "%";
+    let params = "%" + [req.query.season] + "%";
 
     db.all(sql, params, (err, rows) => {
         if (err) throw err;
