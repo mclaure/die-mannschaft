@@ -11,20 +11,20 @@ Simple API that provides soccer statistics using a public database
 
 1. Download the code
 2. Download the database file "soccer.rar" from [here](https://www.kaggle.com/hugomathien/soccer)
-3. To install SQLite database 
-* Unpack the "soccer.rar" file as "soccer.sqlite" to the "data" folder
-* You can also unpack the "soccer.rar" file from the "data" folder itself
-4. To install MySQL database
-* Download the MySQL dump file from [here](https://drive.google.com/open?id=1zNMAvHwRdK20HEvdCPimi7B96GUP6d6p)
-* run the following command:
+3. To install **SQLite** database: 
+*  Unpack the "soccer.rar" file as **soccer.sqlite** to the **data** folder
+*  You can also unpack the **soccer.rar** file from the **data** folder itself
+4. To install **MySQL** database:
+*  Download the MySQL dump file from [here](https://drive.google.com/open?id=1zNMAvHwRdK20HEvdCPimi7B96GUP6d6p)
+*  Run the following command:
 ```
 mysql -u <user> -p < soccer-my-dump.sql
 ```
-5. run the following command:
+5. Run the following command:
 ```
     npm install
 ```
-6. run the following commnad to start the node server (default port 8000):
+6. Run the following commnad to start the node server (default port 8000):
 ```
     node server.js
 ```
